@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<UsersInfo>
+  <UserGrouping>
+    <Group GroupID="1" GroupName="管理员" />
+    <Group GroupID="2" GroupName="员工" />
+  </UserGrouping>
+  <Users>
+    <User AdminID="1" AdminName="12" PassWord="12" GroupName="管理员" />
+    <User AdminID="2" AdminName="23" PassWord="23" GroupName="员工" />
+    <User AdminID="3" AdminName="34" PassWord="34" GroupName="员工" />
+    <User AdminID="4" AdminName="45" PassWord="45" GroupName="管理员" />
+    <User AdminID="5" AdminName="admin" PassWord="827CCBEEA8A706C4C34A16891F84E7B" GroupName="管理员" />
+    <User AdminID="6" AdminName="1111" PassWord="827CCBEEA8A706C4C34A16891F84E7B" GroupName="员工" />
+    <User AdminID="7" AdminName="abc" PassWord="ICy5YqxZB1uWSwcVLSNLcA==" GroupName="管理员" />
+  </Users>
+</UsersInfo>

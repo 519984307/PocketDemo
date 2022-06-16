@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<!--账户-->
+<!--
+  <AdminName>admin</AdminName>
+
+  -->
+<!--密码-->
+<!--
+  <Password>123456</Password>-->
+
+<!--<usergroup>
+    <admin id="1" adminName="1" passWord="1"/>
+    <admin id="2" adminName="2" passWord="2"/>
+    <admin id="3" adminName="3" passWord="3"/>
+  </usergroup>-->
+<UsersInfo>
+
+  <UserGrouping>
+    <Group GroupID="1" GroupName="管理员" />
+    <Group GroupID="2" GroupName="员工" />
+  </UserGrouping>
+
+  <Users>
+    <User AdminID="1" AdminName="12" PassWord="12" GroupName="管理员"/>
+    <User AdminID="2" AdminName="23" PassWord="23" GroupName="员工" />
+    <User AdminID="3" AdminName="34" PassWord="34" GroupName="员工"/>
+    <User AdminID="4" AdminName="45" PassWord="45" GroupName="管理员"/>
+  </Users>
+
+</UsersInfo>
+
+
+<!--<Users>
+  <user>
+    <id>1</id>
+    <adminName>1</adminName>
+    <passWord>1</passWord>
+  </user>
+  <user>
+    <id>2</id>
+    <adminName>2</adminName>
+    <passWord>2</passWord>
+  </user>
+  <user>
+    <id>3</id>
+    <adminName>3</adminName>
+    <passWord>3</passWord>
+  </user>
+
+  <admin>
+    <id>4</id>
+    <adminName>4</adminName>
+    <passWord>4</passWord>
+  </admin>
+</Users>-->
+
+
+
+
