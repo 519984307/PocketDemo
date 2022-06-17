@@ -45,14 +45,14 @@
             this.Btn_Origin = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.splitContainer3 = new System.Windows.Forms.SplitContainer();
-            this.Btn_Reset = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.splitContainer4 = new System.Windows.Forms.SplitContainer();
-            this.Btn_Startover = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
             this.splitContainer5 = new System.Windows.Forms.SplitContainer();
             this.Btn_Cease = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
+            this.Btn_Startover = new CustomControlH.Controls.Btn.RoundControl();
+            this.Btn_Reset = new CustomControlH.Controls.Btn.RoundControl();
             this.tableLayoutPanel1.SuspendLayout();
             this.tableLayoutPanel4.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
@@ -327,28 +327,16 @@
             // 
             this.splitContainer3.Panel2.Controls.Add(this.label3);
             this.splitContainer3.Size = new System.Drawing.Size(150, 182);
-            this.splitContainer3.SplitterDistance = 111;
+            this.splitContainer3.SplitterDistance = 128;
             this.splitContainer3.SplitterWidth = 3;
             this.splitContainer3.TabIndex = 2;
             this.splitContainer3.TabStop = false;
-            // 
-            // Btn_Reset
-            // 
-            this.Btn_Reset.BackColor = System.Drawing.Color.DodgerBlue;
-            this.Btn_Reset.Location = new System.Drawing.Point(0, 3);
-            this.Btn_Reset.Name = "Btn_Reset";
-            this.Btn_Reset.Size = new System.Drawing.Size(147, 105);
-            this.Btn_Reset.TabIndex = 0;
-            this.Btn_Reset.UseMnemonic = false;
-            this.Btn_Reset.UseVisualStyleBackColor = false;
-            this.Btn_Reset.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Btn_Reset_MouseDown);
-            this.Btn_Reset.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Btn_Reset_MouseUp);
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("宋体", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label3.Location = new System.Drawing.Point(45, 22);
+            this.label3.Location = new System.Drawing.Point(42, 5);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(68, 28);
             this.label3.TabIndex = 0;
@@ -369,28 +357,16 @@
             // 
             this.splitContainer4.Panel2.Controls.Add(this.label4);
             this.splitContainer4.Size = new System.Drawing.Size(150, 182);
-            this.splitContainer4.SplitterDistance = 111;
+            this.splitContainer4.SplitterDistance = 129;
             this.splitContainer4.SplitterWidth = 3;
             this.splitContainer4.TabIndex = 3;
             this.splitContainer4.TabStop = false;
-            // 
-            // Btn_Startover
-            // 
-            this.Btn_Startover.BackColor = System.Drawing.Color.DarkGray;
-            this.Btn_Startover.Location = new System.Drawing.Point(2, 3);
-            this.Btn_Startover.Name = "Btn_Startover";
-            this.Btn_Startover.Size = new System.Drawing.Size(147, 105);
-            this.Btn_Startover.TabIndex = 0;
-            this.Btn_Startover.UseMnemonic = false;
-            this.Btn_Startover.UseVisualStyleBackColor = false;
-            this.Btn_Startover.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Btn_Startover_MouseDown);
-            this.Btn_Startover.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Btn_Startover_MouseUp);
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("宋体", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label4.Location = new System.Drawing.Point(45, 22);
+            this.label4.Location = new System.Drawing.Point(34, 7);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(68, 28);
             this.label4.TabIndex = 0;
@@ -437,6 +413,30 @@
             this.label5.Size = new System.Drawing.Size(68, 28);
             this.label5.TabIndex = 0;
             this.label5.Text = "停止";
+            // 
+            // Btn_Startover
+            // 
+            this.Btn_Startover.BackColor = System.Drawing.Color.DarkGray;
+            this.Btn_Startover.BorderWidth = 2;
+            this.Btn_Startover.Location = new System.Drawing.Point(15, 4);
+            this.Btn_Startover.Name = "Btn_Startover";
+            this.Btn_Startover.Size = new System.Drawing.Size(120, 120);
+            this.Btn_Startover.TabIndex = 1;
+            this.Btn_Startover.UseVisualStyleBackColor = false;
+            this.Btn_Startover.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Btn_Startover_MouseDown);
+            this.Btn_Startover.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Btn_Startover_MouseUp);
+            // 
+            // Btn_Reset
+            // 
+            this.Btn_Reset.BorderWidth = 2;
+            this.Btn_Reset.Location = new System.Drawing.Point(29, 24);
+            this.Btn_Reset.Name = "Btn_Reset";
+            this.Btn_Reset.Size = new System.Drawing.Size(80, 80);
+            this.Btn_Reset.TabIndex = 5;
+            this.Btn_Reset.Text = " ";
+            this.Btn_Reset.UseVisualStyleBackColor = true;
+            this.Btn_Reset.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Btn_Reset_MouseDown);
+            this.Btn_Reset.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Btn_Reset_MouseUp);
             // 
             // ButtonPageForm
             // 
@@ -503,10 +503,10 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.SplitContainer splitContainer5;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Button Btn_Reset;
         private System.Windows.Forms.Button Btn_ManualAutomatic;
         private System.Windows.Forms.Button Btn_Origin;
-        private System.Windows.Forms.Button Btn_Startover;
         private System.Windows.Forms.Button Btn_Cease;
+        private CustomControlH.Controls.Btn.RoundControl Btn_Startover;
+        private CustomControlH.Controls.Btn.RoundControl Btn_Reset;
     }
 }

@@ -257,7 +257,7 @@ namespace PocketDemo1
             {
                 Log.GetLogMessage("PlcLog", "ButtonPage(按钮界面)" + "\r\n" + "复位按钮写入失败，失败代码：" + operate.ErrorCode + ",失败原因：" + operate.Message);
                 return;
-            }
+            } 
         }
 
         /// <summary>
@@ -270,7 +270,7 @@ namespace PocketDemo1
             {
                 Log.GetLogMessage("PlcLog", "ButtonPage(按钮界面)" + "\r\n" + "复位按钮写入失败，失败代码：" + operate.ErrorCode + ",失败原因：" + operate.Message);
                 return;
-            }
+            } 
         }
 
         /// <summary>
@@ -286,7 +286,7 @@ namespace PocketDemo1
             }
             else
             {
-                Btn_Startover.BackColor = System.Drawing.Color.Lime;
+                 Btn_Startover.BackColor = System.Drawing.Color.Lime; 
             }
         }
 
@@ -303,7 +303,8 @@ namespace PocketDemo1
             }
             else
             {
-                Btn_Startover.BackColor = System.Drawing.Color.DarkGray;
+                 Btn_Startover.BackColor = System.Drawing.Color.DarkGray;
+                 
             }
         }
 
